@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "fabric": "^5.3.0"
+  }
+}

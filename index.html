@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabric Js</title>
+</head>
+<body>
+    <button onclick = 'toggleMode(modes.pan)'>Toggle Pan</button>
+    <button onclick = 'toggleMode(modes.drawing)'>Toggle drawing</button>
+    <input id = 'colorPicker' value="#000000" data-jscolor=''>
+    <canvas id="canvas"></canvas>
+
+    <!-- Include Fabric.js using a script tag -->
+    <script src="lib/jscolor.js"></script>
+    <script src="lib/fabric.min.js"></script>
+    <!-- Your JavaScript code -->
+    <script src="./index.js"></script>
+</body>
+</html>
